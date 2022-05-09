@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 299.266 s <<< FAILURE! - in TestSuite
+runner.RunnerTestNG.runScenario["End to end scenario: User could order a simple computer and check it out", "Optional[E2E Order checkout]"](16)  Time elapsed: 13.755 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'user navigate to computers and select desktops' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user navigate to computers and select desktops")
+public void user_navigate_to_computers_and_select_desktops() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user add the simple computer with slow processor to the shopping cart")
+public void user_add_the_simple_computer_with_slow_processor_to_the_shopping_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user navigate to shopping cart and check it out")
+public void user_navigate_to_shopping_cart_and_check_it_out() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("add the address and continue")
+public void add_the_address_and_continue(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@When("continue to payment method and enter the payment information:")
+public void continue_to_payment_method_and_enter_the_payment_information(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user could see confirmation message: {string}")
+public void user_could_see_confirmation_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
